@@ -50,7 +50,7 @@ a:visited {
 }
 
 a:hover {
-    color: rgb(235, 172, 161);
+    color: rgb(36, 33, 32);
     font-size: 1.3em;
 }
 
@@ -64,7 +64,7 @@ a:hover {
 
 #projects_section {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
     flex-wrap: wrap;
     background-image: url(Images/bckgd2.png);
     padding: 100px;
@@ -72,7 +72,7 @@ a:hover {
 }
 
 #projects_section div {
-    background-color: rgb(117, 164, 170);
+    background-color: rgb(93, 160, 143);
     padding: 30px;
     margin: 20px;
     color: rgb(13, 47, 78);
@@ -137,6 +137,14 @@ a:hover {
   background-image: url(Images/bckgd6.png);
   padding: 100px;
   margin: 20px;
+}
+
+.cv {
+    border:rgb(34, 74, 160) solid 1px;
+    color: rgb(34, 74, 160);
+    padding: 17px;
+    width: 50px;
+    background-color: rgb(152, 202, 180)
 }
 
 #articles_section article {
@@ -217,6 +225,18 @@ footer div {
     margin: 20px;
 }
 
+@media screen and (max-width: 500px) {
+    header, h1 {
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    h1, ul {
+        font-size: 1em;
+    }  
+}
+
 @media screen and (max-width: 1260px) {
     #projects_section, #articles_section {
         display: flex;
@@ -228,6 +248,12 @@ footer div {
     #projects_section, #articles_section h2 {
         margin: 20px 516px 20px 20px;
     }  
+}
+
+@media screen and (max-width: 700px) {
+    #about_section div, #projects_section div {
+        font-size: 1.2em;
+    }
 }
 
 @media screen and (max-width: 1260px) {
