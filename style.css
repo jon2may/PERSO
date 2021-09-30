@@ -8,8 +8,7 @@ header {
     background-image: url(Images/bckgd.jpg);
     color: rgb(84, 97, 219);
     font-size: 2em;
-    padding: 200px;
-    margin: 20px;
+    padding: 150px;    margin: 20px;
 }
 
 h1 {
@@ -168,6 +167,10 @@ article img:hover {
     margin: 20px;
 }
 
+#contact_section h2 {
+    margin: -2px 20px 10px 20px;
+}
+
 label {
     color: rgb(9, 57, 160);
     font-size: 1.5em;
@@ -212,4 +215,22 @@ footer div {
     font-size: 2em;
     padding: 30px;
     margin: 20px;
+}
+
+@media screen and (max-width: 1260px) {
+    #projects_section, #articles_section {
+        display: flex;
+        flex-direction: column;
+    }  
+}
+
+@media screen and (max-width: 1260px) {
+    #projects_section, #articles_section h2 {
+        margin: 20px 516px 20px 20px;
+    }  
+}
+
+@media screen and (max-width: 1260px) {
+    #contact_section h2 {
+        margin: 20px 516px 20px 10px;    }  
 }
