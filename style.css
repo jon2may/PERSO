@@ -8,7 +8,8 @@ header {
     background-image: url(Images/bckgd.jpg);
     color: rgb(84, 97, 219);
     font-size: 2em;
-    padding: 150px;    margin: 20px;
+    padding: 150px;
+    margin: 20px;
 }
 
 h1 {
@@ -72,7 +73,7 @@ a:hover {
 }
 
 #projects_section div {
-    background-color: rgb(93, 160, 143);
+    background-color: rgb(108, 185, 166);
     padding: 30px;
     margin: 20px;
     color: rgb(13, 47, 78);
@@ -151,7 +152,6 @@ a:hover {
     background-color: rgb(51, 167, 138);
     padding: 30px;
     margin: 20px;
-    width: 480px;
     height: 400px;
     color: rgb(13, 47, 78);
     width: 400px;
@@ -160,7 +160,7 @@ a:hover {
 
 #articles_section h2 {
     background-color: rgb(159, 202, 181);
-    color: rgb(34, 112, 112);
+    color: rgb(29, 71, 71);
 }
 
 article img:hover {
@@ -211,6 +211,8 @@ button {
 }
 
 footer {
+    display: flex;
+    justify-content: center;
     background-image: url(Images/bckgd.jpg);
     padding: 30px;
     margin: 20px;
@@ -223,6 +225,7 @@ footer div {
     font-size: 2em;
     padding: 30px;
     margin: 20px;
+    width: 40%;
 }
 
 @media screen and (max-width: 500px) {
@@ -246,7 +249,7 @@ footer div {
 
 @media screen and (max-width: 1260px) {
     #projects_section, #articles_section h2 {
-        margin: 20px 516px 20px 20px;
+        margin: 20px 30px 20px 20px;
     }  
 }
 
@@ -259,4 +262,16 @@ footer div {
 @media screen and (max-width: 1260px) {
     #contact_section h2 {
         margin: 20px 516px 20px 10px;    }  
+}
+
+@media screen and (max-width: 400px) {
+    #projects_section div, #articles_section article, input, textarea, button, img {
+        width: 200px;
+    }
+}
+@media screen and (max-width: 400px) {
+    img {
+    width: 200px;
+    height: 200px;
+  }
 }
