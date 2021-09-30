@@ -1,0 +1,215 @@
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    background-color: rgb(255, 255, 0);
+}
+
+header {   
+    text-align: center;
+    background-image: url(Images/bckgd.jpg);
+    color: rgb(84, 97, 219);
+    font-size: 2em;
+    padding: 200px;
+    margin: 20px;
+}
+
+h1 {
+    background-color: rgb(236, 226, 236);
+    padding: 70px;
+    margin: 70px;
+}
+
+h2 {
+    background-color: rgb(218, 245, 242);
+    padding: 30px;
+    margin: 20px;
+    color: rgb(34, 74, 160);
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1em;
+    margin-bottom: 0;
+}
+
+h4 {
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    margin-top: 0;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+  }
+
+a {
+    text-decoration: none;
+}
+
+a:visited { 
+    color: rgb(84, 97, 219);
+}
+
+a:hover {
+    color: rgb(235, 172, 161);
+    font-size: 1.3em;
+}
+
+.menu {
+    background-color: rgb(238, 225, 238);
+    padding: 30px;
+    list-style-type: none;
+    line-height: 100px;
+    margin: 70px;
+}
+
+#projects_section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url(Images/bckgd2.png);
+    padding: 100px;
+    margin: 20px;
+}
+
+#projects_section div {
+    background-color: rgb(117, 164, 170);
+    padding: 30px;
+    margin: 20px;
+    color: rgb(13, 47, 78);
+    width: 400px;
+    font-size: 1.5em;
+}
+
+#projects_section a:visited {
+    color: rgb(255, 255, 255);
+}
+
+#about_section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url(Images/bckgd.jpg);
+    padding: 100px;
+    margin: 20px;
+}
+
+#about_section h2 {
+    background-color: rgb(236, 226, 236);
+    color: rgb(84, 97, 219);
+}
+
+#about_section div {
+    background-color: rgb(236, 226, 236);
+    padding: 30px;
+    margin: 20px;
+    color: rgb(34, 74, 160);
+    font-size: 1.5em;
+}
+
+#about_section a:visited {
+    color: rgb(255, 255, 255);
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+/* Facebook */
+.fa-facebook {
+    background: rgb(59, 89, 152);
+    color: rgb(255, 255, 255);
+  }
+
+/* Twitter */
+.fa-twitter {
+    background: rgb(85, 172, 238);
+    color: rgb(255, 255, 255);
+  }
+
+#articles_section {
+  display: flex;
+  flex-direction: row-reverse;
+  background-image: url(Images/bckgd6.png);
+  padding: 100px;
+  margin: 20px;
+}
+
+#articles_section article {
+    background-color: rgb(51, 167, 138);
+    padding: 30px;
+    margin: 20px;
+    width: 480px;
+    height: 400px;
+    color: rgb(13, 47, 78);
+    width: 400px;
+    font-size: 1.5em;
+}
+
+#articles_section h2 {
+    background-color: rgb(159, 202, 181);
+    color: rgb(34, 112, 112);
+}
+
+article img:hover {
+    opacity: 0.5;
+}
+
+#contact_section {
+    background-image: url(Images/bckgd5.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    margin: 20px;
+}
+
+label {
+    color: rgb(9, 57, 160);
+    font-size: 1.5em;
+    background-color: rgba(255, 228, 196, 0.639);
+    margin: 10px;
+    padding: 3px;
+}
+
+input, textarea, button {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 1.5em;
+    width: 470px;
+    height: 60px;
+    padding: 0px 15px 0px 15px;
+    margin: 10px;
+    border: none;
+}
+input, textarea {
+    font-size: 1.3em;
+}
+
+textarea {
+    height: 160px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+}
+
+footer {
+    background-image: url(Images/bckgd.jpg);
+    padding: 30px;
+    margin: 20px;
+}
+
+footer div {
+    background-color: rgb(236, 226, 236);
+    text-align: center;
+    color: rgb(84, 97, 219);
+    font-size: 2em;
+    padding: 30px;
+    margin: 20px;
+}
